@@ -35,7 +35,7 @@ since_date4 = "2021-05-01"
 until_date4 = "2021-07-31"
 
 # Using OS library to call CLI commands in Python
-os.system('snscrape --jsonl --max-results {} --since {} twitter-search "{} until:{} lang:pt"> text-query-tweets.json'.format(tweet_count, since_date1, text_query, until_date1))
+os.system('snscrape --jsonl --max-results {} --since {} twitter-search "{} until:{} lang:pt"> text-query-tweets.json'.format(tweet_count, since_date2, text_query, until_date2))
 
 # Reads the json generated from the CLI command above and creates a pandas dataframe
 tweets_df2 = pd.read_json('text-query-tweets.json', lines=True)
@@ -44,7 +44,7 @@ tweets_df2 = pd.read_json('text-query-tweets.json', lines=True)
 tweets_df2.head()
 
 # Exportar os dados para uma planilha .csv
-tweets_df2.to_csv('Coleta1_Expectativa1.csv', sep=',', index=False)
-# tweets_df2.to_csv('Coleta2_Avaliacao1.csv', sep=',', index=False)
+# tweets_df2.to_csv('Coleta1_Expectativa1.csv', sep=',', index=False)
+tweets_df2.to_csv('Coleta2_Avaliacao1.csv', sep=',', index=False)
 # tweets_df2.to_csv('Coleta3_Avaliacao2.csv', sep=',', index=False)
 # tweets_df2.to_csv('Coleta4_Expectativa2.csv', sep=',', index=False)
