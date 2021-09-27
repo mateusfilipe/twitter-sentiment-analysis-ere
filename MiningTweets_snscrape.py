@@ -45,6 +45,6 @@ tweets_df2.head()
 
 # Exportar os dados para uma planilha .csv
 # tweets_df2.to_csv('Coleta1_Expectativa1.csv', sep=',', index=False)
-tweets_df2.to_csv('Coleta2_Avaliacao1.csv', sep=',', index=False)
-# tweets_df2.to_csv('Coleta3_Avaliacao2.csv', sep=',', index=False)
+# tweets_df2.to_csv('Coleta2_Avaliacao1.csv', sep=',', index=False)
+tweets_df2.to_csv('Coleta3_Avaliacao2.csv', sep=',', index=False)
 # tweets_df2.to_csv('Coleta4_Expectativa2.csv', sep=',', index=False)
