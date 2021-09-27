@@ -44,7 +44,7 @@ tweets_df2 = pd.read_json('text-query-tweets.json', lines=True)
 tweets_df2.head()
 
 # Exportar os dados para uma planilha .csv
-tweets_df2.to_csv('text-query-tweetsColeta1.csv', sep=',', index=False)
-# tweets_df2.to_csv('text-query-tweetsColeta2.csv', sep=',', index=False)
-# tweets_df2.to_csv('text-query-tweetsColeta3.csv', sep=',', index=False)
-# tweets_df2.to_csv('text-query-tweetsColeta4.csv', sep=',', index=False)
+tweets_df2.to_csv('Coleta1_Expectativa1.csv', sep=',', index=False)
+# tweets_df2.to_csv('Coleta2_Avaliacao1.csv', sep=',', index=False)
+# tweets_df2.to_csv('Coleta3_Avaliacao2.csv', sep=',', index=False)
+# tweets_df2.to_csv('Coleta4_Expectativa2.csv', sep=',', index=False)
